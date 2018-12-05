@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements source="Storyboard Pro (StoryboardPro.exe) version 14.20.2 build 13969 2018-08-23 11:08:58" version="14202" build="13969">
+ <element id="1" elementName="Draw" elementFolder="Draw" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="2" elementName="Draw" elementFolder="Draw.2" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+</elements>
