@@ -5,7 +5,7 @@
   <session appBuild="11.0.0.199" appVersion="11.0" audioChannelType="stereo" bitDepth="32" duration="1323000" sampleRate="44100">
     <name>Act 1 80bpm.sesx</name>
     <tracks>
-      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="true" visible="true">
+      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="false" visible="true">
         <trackParameters trackHeight="579" trackHue="-1" trackMinimized="false">
           <name>Track 1</name>
         </trackParameters>
@@ -72,20 +72,20 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="529200" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="K_that sounds" offline="false" select="true" sourceInPoint="69656" sourceOutPoint="598856" startPoint="0" zOrder="0">
-          <component componentGuid="b2dab928-6cbe-4931-889c-f61941220b62" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="264600" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="R_Shouldn't You" offline="false" select="true" sourceInPoint="66150" sourceOutPoint="330750" startPoint="0" zOrder="0">
+          <component componentGuid="8835b874-fbd5-4d1c-ad3e-cdbe8f13bc12" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="752a71cd-cbca-4c3a-8b26-d2f31c7185e2" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="cfe1155f-93a2-4883-bfdd-cb9eb9590d30" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
-          <component componentGuid="001d0d94-623c-4c70-90c5-2ae4aab10ccb" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+          <component componentGuid="9a040aba-9322-48ef-8697-c611098388c7" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="529200" shape="0" startPoint="529200" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="264600" shape="0" startPoint="264600" type="cosine"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <channelMap>
@@ -94,7 +94,7 @@
           </channelMap>
         </audioClip>
       </audioTrack>
-      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
+      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="true" visible="true">
         <trackParameters trackHeight="74" trackHue="82.4572420120239258" trackMinimized="false">
           <name>Track 2</name>
         </trackParameters>
@@ -107,7 +107,7 @@
           </component>
           <component componentGuid="dd069070-d659-4a25-8a28-d87f77eab81e" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="1"/>
           </component>
           <component componentGuid="fb25c49c-d3b6-4125-912e-954605081815" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -166,7 +166,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="d166ecb5-d1a4-49dc-a3ed-af0ffcc41ee1" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="e504e187-c610-4474-ae9e-a1f9fe017920" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -524,9 +524,9 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </masterTrack>
     </tracks>
-    <sessionState ctiPosition="41003" smpteStart="0">
-      <selectionState selectionDuration="0" selectionStart="41003"/>
-      <viewState horizontalViewDuration="424242" horizontalViewStart="535" trackControlsWidth="174" verticalScrollOffset="-60"/>
+    <sessionState ctiPosition="110489" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="110489"/>
+      <viewState horizontalViewDuration="424242" horizontalViewStart="0" trackControlsWidth="158" verticalScrollOffset="-60"/>
       <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
       <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3"/>
     </sessionState>
@@ -542,10 +542,10 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition CC 2018.0 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2018-12-12T11:44:34-05:00</xmp:CreateDate>
-         <xmp:MetadataDate>2018-12-12T13:19:59-05:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2018-12-12T13:19:59-05:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:a9cd28f8-f5b0-d049-af8e-38af90565cf0</xmpMM:InstanceID>
-         <xmpMM:DocumentID>xmp.did:a9cd28f8-f5b0-d049-af8e-38af90565cf0</xmpMM:DocumentID>
+         <xmp:MetadataDate>2018-12-12T13:28:12-05:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2018-12-12T13:28:12-05:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:b70cb5ac-d219-cf41-97c8-f6dfeaa4ce24</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:b70cb5ac-d219-cf41-97c8-f6dfeaa4ce24</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:20147a3a-1e3c-8d4f-9c5b-1813eb351e02</xmpMM:OriginalDocumentID>
          <xmpMM:History>
             <rdf:Seq>
@@ -612,11 +612,25 @@
                   <stEvt:softwareAgent>Adobe Audition CC 2018.0 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b76baf41-62cb-dc49-8613-1f0ea8e29e90</stEvt:instanceID>
+                  <stEvt:when>2018-12-12T13:28:12-05:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2018.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b70cb5ac-d219-cf41-97c8-f6dfeaa4ce24</stEvt:instanceID>
+                  <stEvt:when>2018-12-12T13:28:12-05:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2018.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
             </rdf:Seq>
          </xmpMM:History>
          <xmpMM:DerivedFrom rdf:parseType="Resource">
-            <stRef:instanceID>xmp.iid:7311f6cb-761b-3441-8b14-1d59e3c407a0</stRef:instanceID>
-            <stRef:documentID>xmp.did:2bbe431d-52ba-9544-baab-bec35c869980</stRef:documentID>
+            <stRef:instanceID>xmp.iid:b76baf41-62cb-dc49-8613-1f0ea8e29e90</stRef:instanceID>
+            <stRef:documentID>xmp.did:a9cd28f8-f5b0-d049-af8e-38af90565cf0</stRef:documentID>
             <stRef:originalDocumentID>xmp.did:20147a3a-1e3c-8d4f-9c5b-1813eb351e02</stRef:originalDocumentID>
          </xmpMM:DerivedFrom>
          <dc:format>application/xml</dc:format>
@@ -742,7 +756,7 @@
 
   <files>
     <file absolutePath="C:\Users\fanta\Desktop\Fall 2018\. Class Files\. Capstone\Capstone\PreCapstone Files\Teaser\V4 New Animatic\New Animatic\Audition\Act 1 80bpm\Imported Files\Metronome 80bpm.mp3" id="0" importerPrivateSettings="BitsPerSecond:0:192000;CompressionQuality:0:4;CompressionType:0:0;" mediaHandler="AmioMP3" relativePath="Imported Files/Metronome 80bpm.mp3"/>
-    <file absolutePath="C:\Users\fanta\Desktop\Fall 2018\. Class Files\. Capstone\Capstone\PreCapstone Files\Teaser\V4 New Animatic\New Animatic\Audition\Act 1 80bpm\K_that sounds.wav" id="1" mediaHandler="AmioWav" relativePath="K_that sounds.wav"/>
+    <file absolutePath="C:\Users\fanta\Desktop\Fall 2018\. Class Files\. Capstone\Capstone\PreCapstone Files\Teaser\V4 New Animatic\New Animatic\Audition\Act 1 80bpm\R_Shouldn't You.wav" id="1" mediaHandler="AmioWav" relativePath="R_Shouldn't You.wav"/>
   </files>
 
   <audioDevice inputID="48D8E3C6-F796-4411-990E-0EEB43F23FFA" outputID="054BD180-E62B-4A9E-936F-D1E6AAF61B8B">
