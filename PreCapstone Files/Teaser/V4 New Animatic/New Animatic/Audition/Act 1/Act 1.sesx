@@ -72,27 +72,6 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="394934" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="S_I-imSpencer" offline="false" select="true" sourceInPoint="59130" sourceOutPoint="454064" startPoint="0" zOrder="1">
-          <component componentGuid="b55c4e74-bb9e-4a83-bd24-ad1af60c435c" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
-            <parameter index="0" name="volume" parameterValue="1"/>
-            <parameter index="1" name="static gain" parameterValue="1"/>
-          </component>
-          <component componentGuid="94e30e7c-c736-4f02-ae9b-4450ff240236" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
-            <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="0"/>
-          </component>
-          <component componentGuid="f29c848c-e6f9-427c-a326-e771a8ad209d" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
-            <parameter index="0" name="Pan" parameterValue="0"/>
-          </component>
-          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="394934" shape="0" startPoint="394934" type="cosine"/>
-          <editParameter parameterIndex="0" slotIndex="4294967281"/>
-          <editParameter parameterIndex="0" slotIndex="4294967280"/>
-          <channelMap>
-            <channel index="0" sourceIndex="0"/>
-            <channel index="1" sourceIndex="1"/>
-          </channelMap>
-        </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
         <trackParameters trackHeight="100" trackHue="104.066319465637207" trackMinimized="false">
@@ -505,7 +484,7 @@
     </tracks>
     <sessionState ctiPosition="28942" smpteStart="0">
       <selectionState selectionDuration="0" selectionStart="28942"/>
-      <viewState horizontalViewDuration="833552" horizontalViewStart="0" trackControlsWidth="158" verticalScrollOffset="0"/>
+      <viewState horizontalViewDuration="0" horizontalViewStart="0" trackControlsWidth="0" verticalScrollOffset="0"/>
       <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
       <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3"/>
     </sessionState>
@@ -520,9 +499,9 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition CC 2018.0 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2018-12-11T13:51:14-05:00</xmp:CreateDate>
-         <xmp:MetadataDate>2018-12-12T12:18:32-05:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2018-12-12T12:18:32-05:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:aa60e219-2fe8-ff4c-bef2-fcf7a1fc3eef</xmpMM:InstanceID>
+         <xmp:MetadataDate>2018-12-12T12:29:45-05:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2018-12-12T12:29:45-05:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:b0f89bd5-15e8-6240-83d4-58fce3c1b1e1</xmpMM:InstanceID>
          <xmpMM:DocumentID>xmp.did:9f00d78b-ffb8-f44e-966b-3f141d32df86</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:9f00d78b-ffb8-f44e-966b-3f141d32df86</xmpMM:OriginalDocumentID>
          <xmpMM:History>
@@ -587,6 +566,20 @@
                   <stEvt:action>saved</stEvt:action>
                   <stEvt:instanceID>xmp.iid:aa60e219-2fe8-ff4c-bef2-fcf7a1fc3eef</stEvt:instanceID>
                   <stEvt:when>2018-12-12T12:18:32-05:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2018.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:0a8ea0d7-972b-514f-ac27-6c0c3b8e6ead</stEvt:instanceID>
+                  <stEvt:when>2018-12-12T12:29:45-05:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2018.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b0f89bd5-15e8-6240-83d4-58fce3c1b1e1</stEvt:instanceID>
+                  <stEvt:when>2018-12-12T12:29:45-05:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition CC 2018.0 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
@@ -713,21 +706,13 @@
     </properties>
   </session>
 
-  <files>
-    <file absolutePath="C:\Users\fanta\Desktop\Fall 2018\. Class Files\. Capstone\Capstone\PreCapstone Files\Teaser\V4 New Animatic\New Animatic\Audition\Act 1 80bpm\S_I-imSpencer.wav" id="0" mediaHandler="AmioWav" relativePath="../Act 1 80bpm/S_I-imSpencer.wav"/>
-  </files>
+  <files/>
 
   <audioDevice inputID="BD41FB46-F30E-41BE-9BC8-657A018D4104" outputID="788F0A1D-D839-4F56-92E9-DB8DFD4DA8C6">
     <inputPort id="1" name="Default Stereo Input"/>
-    <inputPort id="2" name="[01M] Headset (Mpow Jaws Hands-Free) 1"/>
-    <inputPort id="3" name="[02M] Headset (Mpow Jaws Hands-Free) 2"/>
-    <inputPort id="4" name="[01S] Headset (Mpow Jaws Hands-Free) 1"/>
     <outputPort id="1" name="Default Output"/>
-    <outputPort id="2" name="[01M] Headset (Mpow Jaws Hands-Free) 1"/>
-    <outputPort id="3" name="[02M] Headset (Mpow Jaws Hands-Free) 2"/>
-    <outputPort id="4" name="Default Stereo Output"/>
-    <outputPort id="5" name="[01S] Headset (Mpow Jaws Hands-Free) 1"/>
-    <outputPort id="6" name="Default Surround Output"/>
+    <outputPort id="2" name="Default Stereo Output"/>
+    <outputPort id="3" name="Default Surround Output"/>
   </audioDevice>
 
 </sesx>
