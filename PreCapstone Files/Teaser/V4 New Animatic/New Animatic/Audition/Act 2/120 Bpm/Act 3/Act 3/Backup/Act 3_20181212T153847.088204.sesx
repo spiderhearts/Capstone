@@ -3,27 +3,27 @@
 <sesx version="1.5">
 
   <session appBuild="11.0.0.199" appVersion="11.0" audioChannelType="stereo" bitDepth="32" duration="1323000" sampleRate="44100">
-    <name>160bpm.sesx</name>
+    <name>Act 3_20181212T153847.088204.sesx</name>
     <tracks>
       <audioTrack automationLaneOpenState="false" id="10001" index="1" select="true" visible="true">
-        <trackParameters trackHeight="523" trackHue="-1" trackMinimized="false">
+        <trackParameters trackHeight="134" trackHue="-1" trackMinimized="false">
           <name>Track 1</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
           <trackOutput outputID="10000" type="trackID"/>
           <trackInput inputID="1"/>
-          <component componentGuid="ae777b64-fbd4-4d4f-b4e0-afc7915b7b4f" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+          <component componentGuid="13faed7b-b959-4e0b-b8b1-14385220995b" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="3556acc9-1be2-4f6c-83ac-eefeb78fa689" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+          <component componentGuid="b4b7be6c-a152-4167-a0ec-46a2ee33ea2a" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
-          <component componentGuid="b273396b-aa16-486b-84d2-d04843b9024b" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+          <component componentGuid="5ceb885d-ec5a-4124-b7d2-be5a094c8c3c" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
-          <component componentGuid="e64e98ce-2c0d-4533-912f-df3b8901139c" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+          <component componentGuid="980c6d65-11b0-4249-a998-03e8cfdf40dc" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
             <parameter index="0" name="Low Shelf Frequency" parameterValue="0.0009079"/>
             <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
             <parameter index="2" name="High Shelf Frequency" parameterValue="0.8161598"/>
@@ -72,47 +72,26 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="264600" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="K_Looks Like" offline="false" select="true" sourceInPoint="60053" sourceOutPoint="324653" startPoint="0" zOrder="0">
-          <component componentGuid="87a84f61-181c-4306-b040-f6017d62b989" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
-            <parameter index="0" name="volume" parameterValue="1"/>
-            <parameter index="1" name="static gain" parameterValue="1"/>
-          </component>
-          <component componentGuid="ac1ff83f-ae46-421a-9ac2-1762cfc24e77" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
-            <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="0"/>
-          </component>
-          <component componentGuid="7fc0f81b-d463-4745-8fe5-2e269ff7ad4b" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
-            <parameter index="0" name="Pan" parameterValue="0"/>
-          </component>
-          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="264600" shape="0" startPoint="264600" type="cosine"/>
-          <editParameter parameterIndex="0" slotIndex="4294967281"/>
-          <editParameter parameterIndex="0" slotIndex="4294967280"/>
-          <channelMap>
-            <channel index="0" sourceIndex="0"/>
-            <channel index="1" sourceIndex="1"/>
-          </channelMap>
-        </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
-        <trackParameters trackHeight="134" trackHue="72.9443264007568359" trackMinimized="false">
+        <trackParameters trackHeight="134" trackHue="37.3501253128051758" trackMinimized="false">
           <name>Track 2</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
           <trackOutput outputID="10000" type="trackID"/>
           <trackInput inputID="1"/>
-          <component componentGuid="40bdeef5-2514-4e34-96c9-d6018daae74f" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+          <component componentGuid="78f5a4ff-1a65-45ba-8992-8db86f4f1c23" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="01faa017-9080-4185-9db2-3a6f78e755a6" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+          <component componentGuid="13611302-c42a-4ee3-984d-8e1f52151b13" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
-          <component componentGuid="fc312330-7dcf-43a2-8046-45d686f85316" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+          <component componentGuid="a82f4159-e176-405a-8760-e2651f4f7f69" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
-          <component componentGuid="06eb0cf2-11df-4543-9c8d-8285ff9b14ce" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+          <component componentGuid="434cdff6-c6a9-4864-8ee9-254ed7030fbd" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
             <parameter index="0" name="Low Shelf Frequency" parameterValue="0.0009079"/>
             <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
             <parameter index="2" name="High Shelf Frequency" parameterValue="0.8161598"/>
@@ -161,16 +140,16 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="66150" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="Metronome 160bpm" offline="false" select="false" sourceInPoint="68371" sourceOutPoint="134521" startPoint="0" zOrder="0">
-          <component componentGuid="d4c7c17a-c07d-41d3-acb6-bc7b75783eef" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="66150" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="Metronome 160bpm" offline="false" select="true" sourceInPoint="0" sourceOutPoint="66150" startPoint="0" zOrder="0">
+          <component componentGuid="7e0cf8fc-46c5-4c72-83c0-6af3a9ec765e" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="f1d9f5db-ca29-4c01-b7f5-cffca2d448ff" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="a9e5434a-7751-416e-9235-b6ee645cf45e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
-          <component componentGuid="db0b1e8a-2284-4cd6-9608-55030412ec9f" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+          <component componentGuid="b62a2620-4789-41bb-bbc2-5e8bc6fa554c" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
@@ -184,24 +163,24 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10003" index="3" select="false" visible="true">
-        <trackParameters trackHeight="134" trackHue="273.8895893096923828" trackMinimized="false">
+        <trackParameters trackHeight="134" trackHue="195.0213146209716797" trackMinimized="false">
           <name>Track 3</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
           <trackOutput outputID="10000" type="trackID"/>
           <trackInput inputID="1"/>
-          <component componentGuid="0bd401c7-efe7-4ce3-aa60-252fe8f4e9a2" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+          <component componentGuid="f18423fb-b6cb-4738-92f8-3b46b7cd9113" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="d1a42798-f59e-4412-b7dd-742aebc4d50a" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+          <component componentGuid="e8c170d6-5af1-48e3-8718-daaf4afaa37d" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
-          <component componentGuid="511ad1ff-95ca-4c00-9f2b-1912975a14bb" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+          <component componentGuid="2cb14ed8-923c-4d7e-85cf-c4d2ff207ea5" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
-          <component componentGuid="d47d4e5e-e03e-444e-87f9-a0c8196769d3" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+          <component componentGuid="a6d77818-8ae8-4a78-8bd6-f304d15f8e1c" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
             <parameter index="0" name="Low Shelf Frequency" parameterValue="0.0009079"/>
             <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
             <parameter index="2" name="High Shelf Frequency" parameterValue="0.8161598"/>
@@ -252,24 +231,24 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10004" index="4" select="false" visible="true">
-        <trackParameters trackHeight="134" trackHue="117.2015905380249023" trackMinimized="false">
+        <trackParameters trackHeight="134" trackHue="172.279057502746582" trackMinimized="false">
           <name>Track 4</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
           <trackOutput outputID="10000" type="trackID"/>
           <trackInput inputID="1"/>
-          <component componentGuid="7385fb68-b080-4e7f-b415-34ac8eebe2b0" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+          <component componentGuid="4672c692-12d2-4e06-ae56-530282c68bde" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="e758c2bf-02b7-4944-9aa3-7c2dfd28385d" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+          <component componentGuid="0dec51ea-30e7-48b8-947d-33eca78d96d3" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
-          <component componentGuid="a8789bf3-c652-47d6-94da-23996bdd51ac" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+          <component componentGuid="48a48059-39d3-4cfe-b71a-d7d7abc8398c" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
-          <component componentGuid="c53f5697-8171-4785-b569-6a5a18edc075" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+          <component componentGuid="2291fb2c-1c0e-4917-9216-156fec160e7d" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
             <parameter index="0" name="Low Shelf Frequency" parameterValue="0.0009079"/>
             <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
             <parameter index="2" name="High Shelf Frequency" parameterValue="0.8161598"/>
@@ -320,24 +299,24 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10005" index="5" select="false" visible="true">
-        <trackParameters trackHeight="134" trackHue="117.1446418762206889" trackMinimized="false">
+        <trackParameters trackHeight="134" trackHue="340.0836324691772461" trackMinimized="false">
           <name>Track 5</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
           <trackOutput outputID="10000" type="trackID"/>
           <trackInput inputID="1"/>
-          <component componentGuid="c732f0a2-0721-47c0-a621-52ec574da0de" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+          <component componentGuid="dcd8661f-efaf-4487-ad89-f8938f61114c" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="cc89d415-6c60-4913-a2aa-0e4d1e973a27" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+          <component componentGuid="a4a6636d-9bf7-4fcd-8e4d-0a5b6d35086e" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
-          <component componentGuid="e860c218-da54-49bb-9d18-82c8112b36a9" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+          <component componentGuid="1cf31bac-84da-4d3a-8b35-f464ef855e86" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
-          <component componentGuid="86571d6e-a462-4f86-ac91-b88df54cdaef" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+          <component componentGuid="f89df68a-8b53-469f-b906-749629d516a5" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
             <parameter index="0" name="Low Shelf Frequency" parameterValue="0.0009079"/>
             <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
             <parameter index="2" name="High Shelf Frequency" parameterValue="0.8161598"/>
@@ -388,24 +367,24 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10006" index="6" select="false" visible="true">
-        <trackParameters trackHeight="134" trackHue="167.3982954025268555" trackMinimized="false">
+        <trackParameters trackHeight="134" trackHue="228.5883665084838867" trackMinimized="false">
           <name>Track 6</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
           <trackOutput outputID="10000" type="trackID"/>
           <trackInput inputID="1"/>
-          <component componentGuid="df0bbf58-f492-4840-a7c1-73afd7f0c00b" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+          <component componentGuid="248f060a-0ed8-43d9-b7e0-2efb8bd50f6e" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="342d0427-419e-4813-b556-ec6f47ac6108" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+          <component componentGuid="bd2ea16c-c275-4d05-a46c-3e708363c9a2" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
-          <component componentGuid="7f993dbd-b69f-4c79-9a96-4da9376a2064" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+          <component componentGuid="cc044461-57f5-466e-a67a-2bb72d904b4a" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
-          <component componentGuid="6b56ad4b-7f46-4b5f-8db8-057aa2762353" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+          <component componentGuid="a3bfb999-2947-41d9-adae-3391c176f29b" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
             <parameter index="0" name="Low Shelf Frequency" parameterValue="0.0009079"/>
             <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
             <parameter index="2" name="High Shelf Frequency" parameterValue="0.8161598"/>
@@ -462,18 +441,18 @@
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
           <trackOutput outputID="1" type="hardwareOutput"/>
           <trackInput inputID="-1"/>
-          <component componentGuid="ed295951-826f-4d4f-aa2b-f9618b95f074" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+          <component componentGuid="a961ca91-344a-413e-a17d-522de5291be3" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="86dac47d-af89-4ae9-91bf-ba6488379727" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+          <component componentGuid="df5d6475-dd88-485f-a557-894b5d012069" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
-          <component componentGuid="5248db50-763d-44f8-ba33-a99ff2ffa1cb" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+          <component componentGuid="a764f080-c604-4f82-850f-8d75b0664935" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
-          <component componentGuid="65380187-617d-4d33-9c79-f72c2c623ac4" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+          <component componentGuid="27d502e0-bdf8-422c-9799-864f494f4068" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
             <parameter index="0" name="Low Shelf Frequency" parameterValue="0.0009079"/>
             <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
             <parameter index="2" name="High Shelf Frequency" parameterValue="0.8161598"/>
@@ -524,9 +503,9 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </masterTrack>
     </tracks>
-    <sessionState ctiPosition="269282" smpteStart="0">
-      <selectionState selectionDuration="0" selectionStart="269282"/>
-      <viewState horizontalViewDuration="324576" horizontalViewStart="0" trackControlsWidth="158" verticalScrollOffset="0"/>
+    <sessionState ctiPosition="0" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="0"/>
+      <viewState horizontalViewDuration="0" horizontalViewStart="0" trackControlsWidth="0" verticalScrollOffset="0"/>
       <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
       <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3"/>
     </sessionState>
@@ -541,97 +520,41 @@
             xmlns:dc="http://purl.org/dc/elements/1.1/"
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition CC 2018.0 (Windows)</xmp:CreatorTool>
-         <xmp:CreateDate>2018-12-12T15:06:02-05:00</xmp:CreateDate>
-         <xmp:MetadataDate>2018-12-12T16:09:52-05:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2018-12-12T16:09:52-05:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:e5c9bf3a-bf57-d044-9461-69312693f4e8</xmpMM:InstanceID>
-         <xmpMM:DocumentID>xmp.did:e5c9bf3a-bf57-d044-9461-69312693f4e8</xmpMM:DocumentID>
-         <xmpMM:OriginalDocumentID>xmp.did:e958d661-f9c7-1540-9984-ac36c8d9261d</xmpMM:OriginalDocumentID>
+         <xmp:CreateDate>2018-12-12T15:35:37-05:00</xmp:CreateDate>
+         <xmp:MetadataDate>2018-12-12T15:38:47-05:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2018-12-12T15:38:47-05:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:0133ab8d-e760-8e47-975b-11508708cc42</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:0133ab8d-e760-8e47-975b-11508708cc42</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>xmp.did:36c14a2e-aef2-724b-91a0-920451d76ab5</xmpMM:OriginalDocumentID>
          <xmpMM:History>
             <rdf:Seq>
                <rdf:li rdf:parseType="Resource">
                   <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:e958d661-f9c7-1540-9984-ac36c8d9261d</stEvt:instanceID>
-                  <stEvt:when>2018-12-12T15:06:02-05:00</stEvt:when>
+                  <stEvt:instanceID>xmp.iid:36c14a2e-aef2-724b-91a0-920451d76ab5</stEvt:instanceID>
+                  <stEvt:when>2018-12-12T15:35:37-05:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition CC 2018.0 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/metadata</stEvt:changed>
                </rdf:li>
                <rdf:li rdf:parseType="Resource">
                   <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:a1a6a316-d254-7b4a-a197-6a3e35fd3ca1</stEvt:instanceID>
-                  <stEvt:when>2018-12-12T15:13:50-05:00</stEvt:when>
+                  <stEvt:instanceID>xmp.iid:02d4fa84-77ba-eb4e-801b-156d25f0036f</stEvt:instanceID>
+                  <stEvt:when>2018-12-12T15:38:47-05:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition CC 2018.0 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/metadata</stEvt:changed>
                </rdf:li>
                <rdf:li rdf:parseType="Resource">
                   <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:afcac1d7-5106-7744-b39a-7a2cc6f28572</stEvt:instanceID>
-                  <stEvt:when>2018-12-12T15:13:50-05:00</stEvt:when>
-                  <stEvt:softwareAgent>Adobe Audition CC 2018.0 (Windows)</stEvt:softwareAgent>
-                  <stEvt:changed>/</stEvt:changed>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:ff4fbe41-be1e-634b-b25b-13a85ddcd5e9</stEvt:instanceID>
-                  <stEvt:when>2018-12-12T15:29:13-05:00</stEvt:when>
-                  <stEvt:softwareAgent>Adobe Audition CC 2018.0 (Windows)</stEvt:softwareAgent>
-                  <stEvt:changed>/metadata</stEvt:changed>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:1d05f5fc-b4b3-3547-8ca7-548548fa9d2c</stEvt:instanceID>
-                  <stEvt:when>2018-12-12T15:29:13-05:00</stEvt:when>
-                  <stEvt:softwareAgent>Adobe Audition CC 2018.0 (Windows)</stEvt:softwareAgent>
-                  <stEvt:changed>/</stEvt:changed>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:b54298f3-1b80-cc4e-8b5a-765df37eb7e7</stEvt:instanceID>
-                  <stEvt:when>2018-12-12T15:34:28-05:00</stEvt:when>
-                  <stEvt:softwareAgent>Adobe Audition CC 2018.0 (Windows)</stEvt:softwareAgent>
-                  <stEvt:changed>/metadata</stEvt:changed>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:84f8b27b-6959-5c4c-9c46-b80bd5527d9a</stEvt:instanceID>
-                  <stEvt:when>2018-12-12T15:34:28-05:00</stEvt:when>
-                  <stEvt:softwareAgent>Adobe Audition CC 2018.0 (Windows)</stEvt:softwareAgent>
-                  <stEvt:changed>/</stEvt:changed>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:e50fcd49-6ada-ce4d-95ac-eb80ab6ad154</stEvt:instanceID>
-                  <stEvt:when>2018-12-12T16:09:48-05:00</stEvt:when>
-                  <stEvt:softwareAgent>Adobe Audition CC 2018.0 (Windows)</stEvt:softwareAgent>
-                  <stEvt:changed>/metadata</stEvt:changed>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:fb2b13db-0211-5a43-944d-30334b921c3a</stEvt:instanceID>
-                  <stEvt:when>2018-12-12T16:09:48-05:00</stEvt:when>
-                  <stEvt:softwareAgent>Adobe Audition CC 2018.0 (Windows)</stEvt:softwareAgent>
-                  <stEvt:changed>/</stEvt:changed>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:bbdff55a-a637-ae43-8465-8e5aaa44ed4f</stEvt:instanceID>
-                  <stEvt:when>2018-12-12T16:09:52-05:00</stEvt:when>
-                  <stEvt:softwareAgent>Adobe Audition CC 2018.0 (Windows)</stEvt:softwareAgent>
-                  <stEvt:changed>/metadata</stEvt:changed>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:e5c9bf3a-bf57-d044-9461-69312693f4e8</stEvt:instanceID>
-                  <stEvt:when>2018-12-12T16:09:52-05:00</stEvt:when>
+                  <stEvt:instanceID>xmp.iid:0133ab8d-e760-8e47-975b-11508708cc42</stEvt:instanceID>
+                  <stEvt:when>2018-12-12T15:38:47-05:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition CC 2018.0 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
             </rdf:Seq>
          </xmpMM:History>
          <xmpMM:DerivedFrom rdf:parseType="Resource">
-            <stRef:instanceID>xmp.iid:bbdff55a-a637-ae43-8465-8e5aaa44ed4f</stRef:instanceID>
-            <stRef:documentID>xmp.did:84f8b27b-6959-5c4c-9c46-b80bd5527d9a</stRef:documentID>
-            <stRef:originalDocumentID>xmp.did:e958d661-f9c7-1540-9984-ac36c8d9261d</stRef:originalDocumentID>
+            <stRef:instanceID>xmp.iid:02d4fa84-77ba-eb4e-801b-156d25f0036f</stRef:instanceID>
+            <stRef:documentID>xmp.did:36c14a2e-aef2-724b-91a0-920451d76ab5</stRef:documentID>
+            <stRef:originalDocumentID>xmp.did:36c14a2e-aef2-724b-91a0-920451d76ab5</stRef:originalDocumentID>
          </xmpMM:DerivedFrom>
          <dc:format>application/xml</dc:format>
          <xmpDM:Tracks>
@@ -687,18 +610,18 @@
         <trackAudioParameters audioChannelType="mono" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
           <trackOutput outputID="10000" type="trackID"/>
           <trackInput inputID="-1"/>
-          <component componentGuid="027e2623-aa71-4b64-9d9a-03101e401c57" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+          <component componentGuid="93d67e0c-4513-4343-a0b4-9e3b6891b986" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="0.5011872"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="680f5204-d966-4c0f-b08e-f9acb316af59" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+          <component componentGuid="b685cfe3-20c4-4246-ba86-e39dd8961265" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
-          <component componentGuid="35c4d9d7-8bd5-463a-9112-a876f63157a0" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+          <component componentGuid="8e578a18-97d4-41c5-ba29-c7630948dc37" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
-          <component componentGuid="919a1a6d-ebb3-4ee0-a996-f39042d8bccb" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+          <component componentGuid="0ad55d9b-2812-465c-92a3-2f1225135536" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
             <parameter index="0" name="Low Shelf Frequency" parameterValue="0.0009079"/>
             <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
             <parameter index="2" name="High Shelf Frequency" parameterValue="0.8161598"/>
@@ -755,8 +678,7 @@
   </session>
 
   <files>
-    <file absolutePath="C:\Users\fanta\Desktop\Fall 2018\. Class Files\. Capstone\Capstone\PreCapstone Files\Teaser\V4 New Animatic\New Animatic\Audition\Act 2\120 Bpm\160bpm\Metronome 160bpm.wav" id="0" mediaHandler="AmioWav" relativePath="Metronome 160bpm.wav"/>
-    <file absolutePath="C:\Users\fanta\Desktop\Fall 2018\. Class Files\. Capstone\Capstone\PreCapstone Files\Teaser\V4 New Animatic\New Animatic\Audition\Act 2\120 Bpm\160bpm\K_Looks Like.wav" id="1" mediaHandler="AmioWav" relativePath="K_Looks Like.wav"/>
+    <file absolutePath="C:\Users\fanta\Desktop\Fall 2018\. Class Files\. Capstone\Capstone\PreCapstone Files\Teaser\V4 New Animatic\New Animatic\Audition\Act 2\120 Bpm\Metronome 160bpm.mp3" id="0" mediaHandler="AmioMP3" recoveryID="84c4a016-c44a-40c2-8431-d3dddbcad25d" relativePath="../../../Metronome 160bpm.mp3"/>
   </files>
 
   <audioDevice inputID="02221056-258C-4406-9AF0-4EB107AF589F" outputID="B36A5EAA-D32D-4C0E-BD40-8911655865C5">
